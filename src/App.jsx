@@ -1,10 +1,16 @@
-import './App.css'
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
-
   return (
-    <div>wat-a-deal</div>
-  )
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

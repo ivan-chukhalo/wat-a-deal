@@ -4,3 +4,25 @@
   padding: 2rem;
   text-align: center;
 }
+
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header{
+  height: 4rem;
+  background-color: red;
+}
+.footer{
+  height: 4rem;
+  background-color: goldenrod;
+}
+.main{
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  background-color: seagreen;
+}
